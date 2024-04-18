@@ -1,0 +1,29 @@
+.navbar1 {
+  display: block;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 4px 48px;
+}
+
+.logo-container1,
+.score-container1 {
+  display: flex;
+  align-items: center;
+}
+
+.game-logo-image1 {
+  height: inherit;
+  width: 32px;
+}
+h1 {
+  color: #ffffff;
+  font-size: 12px;
+  align-self: center;
+}
+
+p {
+  margin: 0 12px;
+}

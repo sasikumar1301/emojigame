@@ -1,0 +1,39 @@
+li {
+  list-style-type: none;
+  width: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 8px;
+  padding: 24px 0;
+  margin: 4px 0;
+}
+.image-card-button1 {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.emoji-image1 {
+  width: 70%;
+  transition: all 0.5s;
+}
+
+.emoji-image1:hover {
+  width: 70%;
+  transition: 0.5s;
+  transform: translateY(4px);
+}
+
+.image-card-button1:active {
+  transform: scaleY(0.5);
+  transform: scaleX(0.5);
+  transition: 0.5s;
+}
